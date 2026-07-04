@@ -30,8 +30,6 @@
 
 ## 📸 Preview
 
-> Replace these screenshots with your own after uploading them inside a **screenshots** folder.
-
 ### Dashboard
 
 ![Dashboard](./screenshots/dashboard.PNG)
