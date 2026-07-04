@@ -1,8 +1,6 @@
-# 📦 StockFlow - Inventory Management System
-
-<p align="center">
-  <img src="./assets/logo.png" alt="StockFlow Banner" width="100%" />
-</p>
+<h1 align="center">
+📦 StockFlow - Inventory Management System
+</h1>
 
 <p align="center">
   <b>A modern React-based Inventory Management System for managing products, suppliers, customers, billing, and business analytics.</b>
