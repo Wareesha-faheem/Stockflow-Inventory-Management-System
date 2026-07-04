@@ -1,79 +1,133 @@
 # 📦 StockFlow - Inventory Management System
 
-A modern and responsive **Inventory Management System** built with **React.js**. StockFlow helps businesses efficiently manage products, suppliers, customers, sales, and billing through an intuitive dashboard and clean user interface.
+<p align="center">
+  <img src="./assets/logo.png" alt="StockFlow Banner" width="100%" />
+</p>
+
+<p align="center">
+  <b>A modern React-based Inventory Management System for managing products, suppliers, customers, billing, and business analytics.</b>
+</p>
+
+<p align="center">
+  <a href="https://stockflow-inventory-management-system.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live-Demo-3B82F6?style=for-the-badge&logo=vercel&logoColor=white">
+  </a>
+  <a href="https://github.com/wareesha-faheem/stockflow-inventory-management-system" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github">
+  </a>
+  <img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react">
+  <img src="https://img.shields.io/badge/Vite-Fast-purple?style=for-the-badge&logo=vite">
+  <img src="https://img.shields.io/badge/Responsive-UI-success?style=for-the-badge">
+</p>
+
+---
+
+## 🌐 Live Demo
+
+**Try it here:** https://stockflow-inventory-management-system.vercel.app/
+
+---
+
+## 📸 Preview
+
+> Replace these screenshots with your own after uploading them inside a **screenshots** folder.
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.PNG)
+
+### Suppliers
+
+![Suppliers](./screenshots/suppliers.PNG)
+
+### Stock In
+
+![Stock In](./screenshots/stock-in.PNG)
+
+### Billing
+
+![Billing](./screenshots/billing.PNG)
+
+### Reports
+
+![Reports](./screenshots/reports.PNG)
 
 ---
 
 ## ✨ Features
 
-- User Authentication
-- Dashboard with business overview
-- Product Management (Add, Edit, Delete, Search)
+- Dashboard Analytics
+- Inventory Management
 - Supplier Management
 - Customer Management
-- Sales Management
-- Billing & Invoice Management
-- Global State Management using Context API
-- LocalStorage for persistent data
-- Responsive Design
-- Fast and interactive user experience
+- Billing System
+- Sales Reports
+- Smart Search
+- Persistent Storage
+- Responsive UI
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **React.js**
-- **React Router DOM**
-- **Context API**
-- **JavaScript (ES6+)**
-- **HTML5**
-- **CSS3**
-- **LocalStorage**
+| Technology | Usage |
+|------------|-------|
+| React.js | Frontend |
+| React Router | Routing |
+| Context API | Global State |
+| Vite | Build Tool |
+| JavaScript ES6+ | Logic |
+| HTML5 | Structure |
+| CSS3 | Styling |
+| LocalStorage | Data Persistence |
 
 ---
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
 ```
-src/
-├── assets/
-├── components/
-├── contexts/
-├── pages/
-├── routes/
-├── App.jsx
-└── main.jsx
+├── src/
+│   ├── assets/         # Images, icons & static assets
+│   ├── components/     # Reusable UI components
+│   ├── constants/      # Constant values & configuration
+│   ├── contexts/       # Context API state management
+│   ├── hooks/          # Custom React hooks
+│   ├── utils/          # Utility/helper functions
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-### Clone the repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/wareesha-faheem/stockflow-inventory-management-system.git
 ```
 
-### Navigate to the project
+### Navigate
 
 ```bash
 cd stockflow-inventory-management-system
 ```
 
-### Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Run the development server
+### Run Development Server
 
 ```bash
 npm run dev
 ```
 
-The application will be available at:
+Open
 
 ```
 http://localhost:5173
@@ -81,41 +135,32 @@ http://localhost:5173
 
 ---
 
-## 📸 Modules
+## 📊 Modules
 
-- Dashboard
-- Authentication
-- Products
-- Suppliers
-- Customers
-- Sales
-- Billing
-
----
-
-## 🎯 Learning Objectives
-
-This project demonstrates practical implementation of:
-
-- React Components
-- React Hooks
-- Context API
-- React Router
-- State Management
-- CRUD Operations
-- Responsive UI Development
-- Local Data Persistence
+| Module | Status |
+|---------|--------|
+| Dashboard | ✅ |
+| Authentication | ✅ |
+| Products | ✅ |
+| Suppliers | ✅ |
+| Customers | ✅ |
+| Stock In | ✅ |
+| Billing | ✅ |
+| Reports | ✅ |
 
 ---
 
 ## 📈 Future Improvements
 
 - Backend Integration
+- Firebase Authentication
 - JWT Authentication
 - Database Support
-- Role-Based Access Control
-- Analytics & Reports
-- Export to PDF/Excel
+- Export Reports to PDF
+- Export Excel Files
+- Barcode Scanner
+- Email Invoices
+- Notifications
 - Dark Mode
 
 ---
